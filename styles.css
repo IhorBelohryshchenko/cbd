@@ -1,0 +1,167 @@
+header {
+    background-image: url('./img/Img.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+}
+
+.shadow {
+    position: absolute;
+    height: 100vh;
+}
+
+.header_nav {
+    padding: 1em;
+    border-bottom: 1px solid white;
+    position: relative;
+}
+
+.header_menu {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header_menu li {
+    padding-right: 1em;
+    position: relative;
+}
+
+.line {
+    background-color: #9db892;
+    position: absolute;
+    width: 3em;
+    height: 1.5px;
+    right: 0.6em;
+}
+
+.header_logo {
+    color: white;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    font-size: 2em;
+}
+
+.panel_list {
+    color: white;
+    text-transform: uppercase;
+    padding-left: 1em;
+    font-family: 'Oswald', sans-serif;
+    position: relative;
+}
+
+.search_svg {
+    width: 0.8rem;
+    height: 0.8rem;
+    margin-right: 0.5em;
+}
+
+.header_info {
+    max-width: 500px;
+    padding-top: 15em;
+    margin-left: 15em;
+    margin-right: 5em;
+}
+
+.header_title {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    font-size: 2em;
+    letter-spacing: 0.3em;
+}
+
+.header_action {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-weight: 300;
+    letter-spacing: 0.2em;
+}
+
+.header_button {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 2em 0 1em 1em;
+    border: none;
+    background-color: transparent;
+}
+
+.button_decoration {
+    border: 1px solid white;
+    padding: 0.5em 2em 0.5em 2em;
+    max-width: 14em;
+    text-align: right;
+    cursor: pointer;
+}
+
+.button_line {
+    background-color: white;
+    width: 2em;
+    height: 1.5px;
+    margin-left: 0.5em;
+    padding: 0 0.5em 0 0.5em;
+}
+
+.header_more {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-weight: 300;
+    letter-spacing: 0.2em;
+}
+
+.arrow_right {
+    width: 0.8rem;
+    height: 0.8rem;
+}
+
+.header_text {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    max-width: 300px;
+    transform: rotate(270deg);
+    position: absolute;
+    bottom: 122px;
+    left: -110px;
+}
+
+.text_decoration {
+    background-color: white;
+    width: 3em;
+    height: 1.5px;
+    transform: rotate(180deg);
+    margin-right: 1em;
+}
+
+.whoWeAre_box {
+    background-image: url('./img/holder1.png');
+    height: 320px;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    background: cover;
+}
+
+.whoWeAre_title {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    letter-spacing: 0.2em;
+    margin-top: -220px;
+}
+
+.whoWeAre_logo {
+    background-image: url('./img/Logos.png');
+    height: 80px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
